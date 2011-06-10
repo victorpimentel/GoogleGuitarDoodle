@@ -1,0 +1,149 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+:link {  color: #0000CC }
+:visited {  color: #551A8B }
+:active {  color: #FF0000 }
+iframe.c7 {
+  position: absolute;
+  top: -150px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  width: 100px;
+  height: 100px;
+}
+div.c6 {
+  height: 0;
+  left: -100px;
+  overflow: hidden;
+  position: absolute;
+  top: -100px;
+  width: 0;
+}
+div.c5 {
+  display: block;
+  opacity: 0;
+}
+div.c4 {
+  cursor: pointer;
+  background-position: 1000px 1000px;
+}
+div.c3 {
+  cursor: pointer;
+  background-position: -809px 0px;
+}
+div.c2 {  background-position: 1000px 1000px }
+input.c1 {
+  position: fixed;
+  left: -999px;
+}
+#hplogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -175px;
+  margin-left: -237px;
+}
+#hplogo:active,
+#hplogo:focus {  outline: none }
+#hplogo-g {
+  background: url(guitar11-hp-sprite.png) no-repeat 0 0;
+  height: 175px;
+  position: relative;
+  width: 474px;
+  margin: 0 auto;
+}
+#hplogo-click {
+  background: url(guitar11-hp-sprite.png) no-repeat -2000px -2000px;
+  cursor: pointer;
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 474px;
+}
+#hplogo-lcd {
+  height: 30px;
+  left: 70px;
+  position: absolute;
+  top: 129px;
+  width: 200px;
+}
+#hplogo-lcd-icon {
+  background: url(guitar11-hp-sprite.png) no-repeat -580px -162px;
+  cursor: pointer;
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+#hplogo-lcd-text {
+  background: transparent;
+  border: 0 none;
+  color: #666;
+  cursor: text;
+  font-family: "VT323",arial,sans-serif;
+  font-size: 14px;
+  left: 77px;
+  position: absolute;
+  top: 134px;
+  text-decoration: none;
+  width: 182px;
+}
+#hplogo-lcd-screen {
+  background: url(guitar11-hp-sprite.png) no-repeat -2000px -2000px;
+  height: 20px;
+  left: 52px;
+  position: absolute;
+  top: 134px;
+  width: 214px;
+}
+#hplogo-on {
+  background: url(guitar11-hp-sprite.png) no-repeat -809px -39px;
+  height: 37px;
+  left: 272px;
+  position: absolute;
+  top: 123px;
+  width: 62px;
+}
+#hplogo-led {
+  background: url(guitar11-hp-sprite.png) no-repeat -2000px -2000px;
+  height: 21px;
+  left: 292px;
+  position: absolute;
+  top: 133px;
+  width: 21px;
+}
+.hplogo-str {
+  background: url(guitar11-hp-sprite.png) no-repeat -530px -60px;
+  height: 20px;
+  position: absolute;
+  width: 255px;
+}
+#hplogot {
+  -webkit-box-shadow: 5px 5px 10px #ddd;
+  -moz-box-shadow: 5px 5px 10px #ddd;
+  box-shadow: 5px 5px 10px #ddd;
+  -webkit-transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: #ffffca;
+  border: 1px solid #b5b5b5;
+  cursor: pointer;
+  display: none;
+  font: normal 9pt arial,sans-serif;
+  left: 128px;
+  opacity: 0;
+  padding: 2px 3px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+}
