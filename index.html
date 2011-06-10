@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Google Guitar Doodle</title>
+
+  <link rel="stylesheet" type="text/css" href="logo.css" />
+</head>
+
+<body>
+  <form name="f" action="" id="tsf" method="get" onsubmit="return q.value!=''" role="search">
+    <input value="" title="Search" size="0" autocomplete="off" type="text" class="hide c1" name="q" maxlength="0" />
+  </form>
+
+  <div id="hplogo" border="0">
+    <div id="hplogo-g">
+      <div id="hplogo-click" onclick="google.doodle.go();"></div>
+
+      <div id="hplogo-lcd-screen" class="c2"></div>
+
+      <div id="hplogo-lcd-icon"></div>
+
+      <input id="hplogo-lcd-text" value="" autocomplete="off" onclick="this.focus();this.select()" readonly="readonly" />
+
+      <div id="hplogo-on" class="c3"></div>
+
+      <div id="hplogo-led" class="c4"></div>
+
+      <div id="hplogot" class="c5">
+        Les Paul's 96th Birthday
+      </div>
+    </div>
+
+    <div class="c6">
+      <input id="hplogo-i" />
+    </div>
+
+    <iframe name="doodle-sound" class="c7"></iframe>
+  </div>
+
+  <script src="window.google.js"></script>
+  <script src="google.doodle.js"></script>
+</body>
+</html>
